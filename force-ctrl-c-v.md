@@ -1,3 +1,4 @@
+``` javascript
 javascript:(function(){
   allowCopyAndPaste = function(e){
   e.stopImmediatePropagation();
@@ -7,3 +8,4 @@ javascript:(function(){
   document.addEventListener('paste', allowCopyAndPaste, true);
   document.addEventListener('onpaste', allowCopyAndPaste, true);
 })(); 
+```
